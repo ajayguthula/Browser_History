@@ -1,0 +1,51 @@
+.main-container {
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.navbar {
+  background-color: #3367d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding-left: 60px;
+}
+
+.history-logo {
+  margin-left: 0px;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  margin-right: 100px;
+}
+.search-element {
+  background-color: #2850a7;
+  width: 20px;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #475569;
+}
+
+.input-element {
+  background-color: #2850a7;
+  border-width: 0px;
+  height: 100%;
+  width: 300px;
+  padding-left: 15px;
+  border: 1px solid #475569;
+  outline: none;
+  align-self: center;
+}
+
+.search-logo {
+  height: 80%;
+  width: 20px;
+  height: 20px;
+}
